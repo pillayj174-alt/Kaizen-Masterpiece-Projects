@@ -19,3 +19,7 @@ The website validates the enquiry form and generates a pre-filled email draft to
 
 ## Content checks before public launch
 Company details and wording were taken from the supplied company profile. Confirm current credential status and obtain permission before publishing individual reference contacts. The profile names Thulani as a founder while listing Dulang Qina as Project Director; confirm the preferred naming.
+
+
+## Image quality update
+The supplied logo and three project photographs are included as locally stored, 2× upscaled JPEGs with gentle contrast, colour and sharpening adjustments. The source uploads were only 188 pixels wide, so this improves presentation but cannot recreate fine detail that was not present in the originals. For genuinely crisp photographs, request the original full-resolution camera files from the client.
