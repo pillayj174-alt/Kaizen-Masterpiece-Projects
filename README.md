@@ -1,36 +1,28 @@
-# Kaizen Masterpiece Projects — Website Demo
+# Kaizen Masterpiece Projects — Website
 
-A responsive, black-and-yellow website demo for Kaizen Masterpiece Projects (Pty) Ltd.
+Responsive, single-page website built with HTML, CSS and vanilla JavaScript. The original client-supplied logo and three original construction photographs are included in `assets/` and enhanced for display by upscaling and light contrast/colour/sharpness adjustments.
 
-## Included in this demo
-- Cinematic construction hero section
-- Black, yellow, white and charcoal visual system
-- Sticky desktop navigation and mobile menu
-- Scroll-triggered reveal animations
-- Scroll progress indicator and reduced-motion support
-- About, services, project experience, safety/quality, and contact sections
-- Click-to-call, WhatsApp and email links
-- Responsive layouts for desktop and mobile
+## Files
+- `index.html` — website content and enquiry form
+- `styles.css` — responsive black/yellow design, motion, 3D CSS building
+- `script.js` — mobile navigation, scroll reveal, and enquiry handoff
+- `assets/` — logo and original client images
 
 ## Run locally
-1. Download and extract this ZIP.
-2. Open `index.html` in a modern browser.
+Open `index.html` in a modern browser, or serve this folder using a static web server.
 
-No build tools are required.
+## Publish on GitHub Pages
+1. Create/open a GitHub repository.
+2. Upload the contents of this folder (not the enclosing folder itself) to the repository root.
+3. In **Settings → Pages**, select deployment from the `main` branch and `/ (root)`.
+4. Save and wait for GitHub Pages to publish.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository.
-2. Upload `index.html`, `styles.css`, `script.js`, and this README.
-3. In the repository, open **Settings → Pages**.
-4. Select deployment from the `main` branch and `/ (root)`.
-5. Save and wait for GitHub Pages to publish the site.
+## Enquiry form — important
+This is a static website and does not have a server/database to store enquiries. The form validates required fields and prepares a message to `kmasterpieceprojects@gmail.com` in the visitor's email application, with a WhatsApp fallback to `+27 79 677 0693`. For automatic delivery, central storage, notifications, or a private admin dashboard, connect a form backend (for example Formspree, Netlify Forms, or a custom server) and configure it with the client's consent. No backend credentials are included.
 
-## Demo scope
-This is a starting demo, not the full production website. It does not include a working enquiry form, CMS, booking system, analytics, or backend. The contact buttons open WhatsApp, phone, and email applications.
-
-## Important notes before publishing
-- The company profile lists NHBRC, CIDB, COIDA, SARS and CSD credentials. Verify current status before presenting them as confirmed.
-- Project photographs currently use illustrative remote stock images, not verified photographs of the company's actual projects.
-- Confirm management names and roles with the client. The supplied profile names Thulani as a founder and Dulang Qina as Project Director.
-- Confirm permission before publishing reference contacts' direct phone numbers.
-- The Google Fonts and Unsplash images require an internet connection.
+## Content checks before public launch
+- The company profile lists NHBRC, CIDB, COIDA, SARS and CSD credentials. Confirm current validity before using the site for tender/procurement claims.
+- The profile names Thulani among the founders but lists Dulang Qina as Project Director. Confirm the preferred naming.
+- The profile includes direct phone numbers for reference contacts. Obtain their permission before publishing those numbers publicly.
+- The three construction photographs were supplied by the client. The profile did not identify which photograph corresponds to each named project; the site includes a note to avoid asserting a confirmed mapping.
+- Google Fonts are loaded online; if unavailable, fallback fonts are used. All client image assets are local.
