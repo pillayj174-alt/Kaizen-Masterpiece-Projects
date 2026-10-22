@@ -23,3 +23,6 @@ Company details and wording were taken from the supplied company profile. Confir
 
 ## Image quality update
 The supplied logo and three project photographs are included as locally stored, 2× upscaled JPEGs with gentle contrast, colour and sharpening adjustments. The source uploads were only 188 pixels wide, so this improves presentation but cannot recreate fine detail that was not present in the originals. For genuinely crisp photographs, request the original full-resolution camera files from the client.
+
+## Updated original photography
+The website uses the nine client-supplied construction photos in `assets/construction-01.jpg` through `assets/construction-09.jpg`. `construction-01.jpg` is used in the hero image. The existing `assets/logo.jpg` business logo has intentionally been retained unchanged. Images are locally stored in the project, so they do not depend on external image URLs.
