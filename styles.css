@@ -11,3 +11,11 @@
 @media(max-width:1000px){.site-gallery-item img{height:240px}}
 @media(max-width:720px){.site-gallery-grid{grid-template-columns:1fr 1fr;gap:9px}.site-gallery-item img{height:220px}.site-gallery-item figcaption{font-size:8px;padding:10px}}
 @media(max-width:420px){.site-gallery-grid{grid-template-columns:1fr}.site-gallery-item img{height:260px}}
+
+/* Enquiry delivery feedback and accessible form states */
+.enquiry-form .submit-button:disabled{opacity:.7;cursor:wait;transform:none}
+.form-status.success{padding:14px 16px;background:#e0f3e5;border-left:4px solid #278448;color:#155a2d}
+.form-fallback{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.wa-button{background:#d8f3df;color:#155a2d}
+.form-fallback .button{font-size:10px;gap:12px;padding:12px 14px}
+.enquiry-form input:focus-visible,.enquiry-form select:focus-visible,.enquiry-form textarea:focus-visible,.button:focus-visible,a:focus-visible{outline:3px solid #b48b00;outline-offset:3px}

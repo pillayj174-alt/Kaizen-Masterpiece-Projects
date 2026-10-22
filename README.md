@@ -1,15 +1,29 @@
-# Kaizen Masterpiece Projects — Image Path Fixed
+# Kaizen Masterpiece Projects — Website
 
-## Important: upload the correct folder level
-This ZIP is arranged so `index.html`, `styles.css`, and `script.js` are at the ZIP root. The `assets/` folder sits beside them.
+Professional responsive website for Kaizen Masterpiece Projects (Pty) Ltd.
 
-When deploying to GitHub Pages, extract this ZIP and upload **the files inside it** directly to the root of your repository. Do not upload the ZIP itself, and do not put the entire folder inside another folder. Your repository should look like:
+## Files
+- `index.html` — page structure and company information
+- `styles.css` — responsive styling, animation and layout
+- `script.js` — navigation, scroll reveals and enquiry delivery
+- `assets/` — company logo and client-supplied construction photographs
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/` (contains `logo.jpg` and all construction photos)
+## Enquiry email setup
+The enquiry form uses FormSubmit's AJAX endpoint to send submissions to `kmasterpieceprojects@gmail.com`. On the first live submission, FormSubmit may send an activation/confirmation email to that mailbox. The mailbox owner must open that email and confirm the address before the service will deliver enquiries. This activation step cannot be completed from the website files themselves.
 
-The image references are relative paths such as `assets/construction-01.jpg`, so keep the `assets` folder alongside `index.html`. The existing logo image is preserved; the first new construction photograph is used in the hero, and the supplied construction photos are used in the gallery.
+The form provides a direct email draft and WhatsApp fallback if the online email service is unavailable. This is a static website and does not include a private database or admin dashboard. Do not collect sensitive personal information through the form.
 
-Open `index.html` locally to preview. GitHub Pages may take a few minutes to refresh after a commit.
+## Publish on GitHub Pages
+1. Extract the ZIP.
+2. Upload `index.html`, `styles.css`, `script.js`, `README.md`, and the complete `assets` folder to the root of the GitHub repository.
+3. Commit the changes.
+4. In the repository, open **Settings → Pages** and select the intended branch/root if not already configured.
+5. After publishing, test the website from a phone and desktop, and submit a test enquiry. Confirm the FormSubmit activation email if requested.
+
+## Company details included
+Email: kmasterpieceprojects@gmail.com
+Phone: +27 79 677 0693
+Address: 13854 Phola Park, Alberton 1426
+Registration: 2020/727894/07
+
+Credentials and reference information are reproduced from the supplied company profile and should be verified/approved by the company before public launch.
